@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-nav {
+    justify-content: right;
+    background-color: #F59E0B;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.body-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-nav a:hover {
+    text-decoration: underline;
+}
+
+.body-nav a img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+header img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: fill;
+    display: block; /* ลบช่องว่างที่เกิดจาก inline element */
+}
+
+
+/* Navigation in header */
+.header-nav {
+    display: flex;
+    justify-content: right;
+    background-color: #5A2E93; /* Purple background */
+    padding: 10px 0;
+}
+
+.header-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation in body */
+.body-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #F59E0B; /* Orange background */
+    padding: 10px 0;
+}
+
+.body-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.body-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #F3F4F6;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #5A2E93;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
