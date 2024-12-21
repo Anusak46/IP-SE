@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teaching Assistant Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
     <header>
@@ -14,17 +16,53 @@
             <a href="#">ข่าวสาร</a>
             <a href="#">เข้าสู่ระบบ</a>
         </nav>
-        <img src="/New folder/banner.png" alt="Banner" /> <!-- Replace with actual banner image URL -->
+        <img src="images/banner.png" alt="Banner" /> <!-- Replace with actual banner image URL -->
     </header>
 
-    <nav class="body-nav">
-        <a href="#">Home</a>
-        <a href="#">Teaching Assistant</a>
-        <a href="#">Research Assistant</a>
-        <a href="#">Web Development</a>
-        <a href="#">Graphic Design</a>
-        <a href="#">Other</a>
-    </nav>
+    <div class="nav-container">
+        <nav class="body-nav">
+            <a href="#">
+                <img src="images/1.png" alt="Home Icon">
+                Home
+            </a>
+            <a href="#">
+                <img src="images/2.png" alt="Teaching Icon">
+                Teaching Assistant
+            </a>
+            <a href="#">
+                <img src="images/3.png" alt="Research Icon">
+                Research Assistant
+            </a>
+            <a href="#">
+                <img src="images/4.png" alt="Web Icon">
+                Web Development
+            </a>
+            <a href="#">
+                <img src="images/5.png" alt="Design Icon">
+                Graphic Design
+            </a>
+            <a href="#" class="icon-top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path
+                        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
+                </svg>
+                Other
+            </a>
+        </nav>
+        <nav class="body-nav1">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+            </a>
+        </nav>
+    </div>
+
+
+
 
     <div class="content">
         <h2>Teaching Assistant</h2>
@@ -99,4 +137,5 @@
         <p>&copy; 2024 CSIT | Faculty of Science and Technology</p>
     </footer>
 </body>
+
 </html>
